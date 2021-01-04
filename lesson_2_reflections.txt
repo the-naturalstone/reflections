@@ -10,3 +10,32 @@ as not all files may need to be committed as that time. The working directory sh
 or in other words what is still being worked on. The value is being able to have control over how one wants to think about,
 saving changes and tracking items in their repositiory. 
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+The staging area will give you an opportunity to assess what make logial sense to commit before 
+actually confirming those changes. By handp-picking the files/items to include in the staging there
+is way more control and certainty.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A situation could be when I, the programmer, would like to implement a new feature or add to the base code. 
+I would not want to tamper with the master branch generally, so using another branch can really organize how i make changes
+in my project and when i go into my commit history i can get a better idea of what type of changes were made from commit
+to commit.
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams are key visuals to understand how commit history is effected depending on where you
+create new commits or branches.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result is merging two branches together allows for the changes made in one branch to be connected to another branch
+(ideally the master branch). It is represented in the diagram in that particular way to illustrate what could happen in situations where
+branching isnt used effectively/correctly.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging will help when it is generally for certain that no sections of code are conflicted, which coudld cause issues, 
+especially where one is merging too the main branch. Merging manually can be a precaution or even step back into what portion of the code
+is best for the final version.
