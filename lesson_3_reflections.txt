@@ -1,0 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+You would want to use a remote repo when there are multiple users interacting/sharing the contents of the repo, when they are pushing changes and need to pull/update their local env.
